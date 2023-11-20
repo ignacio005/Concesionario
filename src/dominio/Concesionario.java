@@ -10,12 +10,12 @@ public class Concesionario {
         return coches;
 
     }
-    public static void AñadirVehiculoTurismoPrecio(VehiculoTurismo vehiculoTurismo){
+    public static void AnadirVehiculoTurismoPrecio(VehiculoTurismo vehiculoTurismo){
 
         coches.add(vehiculoTurismo);
 
     }
-    public static void AñadirFurgonetaPrecio(Furgoneta furgoneta){
+    public static void AnadirFurgonetaPrecio(Furgoneta furgoneta){
 
         coches.add(furgoneta);
 

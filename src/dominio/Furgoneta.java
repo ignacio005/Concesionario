@@ -1,13 +1,14 @@
 package dominio;
 
-public class Furgoneta extends Vehiculo{
+public class Furgoneta extends Vehiculo {
 
-    public Furgoneta(String marca,String modelo){
+    public Furgoneta(String marca, String modelo) {
 
         super();
 
     }
-    public void PrecioFinalFurgoneta(int capacidad, int preciobasef){
+
+    public void PrecioFinalFurgoneta(int capacidad, int preciobasef) {
 
         int raizCubica = (int) Math.cbrt(capacidad);
         int division = capacidad / 2;
@@ -15,5 +16,4 @@ public class Furgoneta extends Vehiculo{
         System.out.println("El precio de la furgoneta, según su capacidad es " + preciofinal + " €.");
 
     }
-
 }

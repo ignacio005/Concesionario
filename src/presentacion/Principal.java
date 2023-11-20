@@ -8,11 +8,10 @@ public class Principal {
 
         VehiculoTurismo vehiculoturismo1 = new VehiculoTurismo("Ford", "Focus");
         vehiculoturismo1.PrecioFinalVehiculoTurismo(8,30483);
-        vehiculoturismo1.
-
-        Furgoneta furgoneta1 = new Furgoneta("Ford","Transit connect van");
+        Concesionario.AnadirVehiculoTurismoPrecio(vehiculoturismo1);
+        Furgoneta furgoneta1 =new Furgoneta("Ford","Transit connect van");
         furgoneta1.PrecioFinalFurgoneta(4,30366);
-        Concesionario.AñadirFurgonetaPrecio(furgoneta1);
+        Concesionario.AnadirFurgonetaPrecio(furgoneta1);
 
         Concesionario.MostrarVehiculosPrecio();
 
